@@ -36,7 +36,7 @@ backend:
 # Frontend Configuration
 # =====================
 frontend:
-  image: chaitanyavinjamuri/api-book-frontend:latest
+  image: chaitanyavinjamuri/apibook-frontend:latest
   replicas: 2
   port: 80
   nodePort: 30080
