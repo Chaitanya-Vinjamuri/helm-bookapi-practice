@@ -13,7 +13,7 @@ spec:
       labels:
         app: backend-deployment
     spec:
-      containers:
+        containers:
         - name: backend
           image: {{ .Values.backend.image }}
           ports:
